@@ -1,0 +1,17 @@
+term,count
+elliptocytes,432
+target_cells,218
+tear_drop_cells,93
+polychromasia,262
+anisocytosis,316
+anisopoikilocytosis,26
+basophilic_stippling,4
+schistocytes,31
+spherocytes,6
+nRBCs,33
+macrocytosis,14
+background:microcytic_hypochromic,455
+background:normocytic_normochromic,420
+background:other,77
+background:dimorphic,35
+background:macrocytic,13

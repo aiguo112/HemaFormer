@@ -1,0 +1,63 @@
+{
+  "winner": "gp_no_cbc",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mean_gap_across_seeds": 0.008977777777777796,
+  "std_gap_across_seeds": 0.012795060775428663,
+  "pooled_avg_probs_bootstrap": {
+    "gap": 0.008000000000000007,
+    "boot_mean": 0.008086762354678749,
+    "ci95_lo": -0.004652266134056823,
+    "ci95_hi": 0.022582062325483394,
+    "excludes_zero": false,
+    "n_boot_used": 10000
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "method_auroc": 0.9632888888888889,
+      "baseline_auroc": 0.9394666666666667,
+      "gap": 0.02382222222222219,
+      "delong_z": 2.5899511612165806,
+      "delong_p": 0.009598954911565295
+    },
+    {
+      "seed": 1,
+      "method_auroc": 0.9408888888888889,
+      "baseline_auroc": 0.9357333333333334,
+      "gap": 0.005155555555555469,
+      "delong_z": 0.2955501446370316,
+      "delong_p": 0.7675736522320906
+    },
+    {
+      "seed": 2,
+      "method_auroc": 0.9599111111111112,
+      "baseline_auroc": 0.9574222222222223,
+      "gap": 0.002488888888888874,
+      "delong_z": 0.23409998314155028,
+      "delong_p": 0.8149073590195126
+    },
+    {
+      "seed": 3,
+      "method_auroc": 0.9597333333333334,
+      "baseline_auroc": 0.9394666666666667,
+      "gap": 0.020266666666666766,
+      "delong_z": 1.7536834976394464,
+      "delong_p": 0.07948475475486046
+    },
+    {
+      "seed": 4,
+      "method_auroc": 0.951288888888889,
+      "baseline_auroc": 0.9581333333333333,
+      "gap": -0.00684444444444432,
+      "delong_z": -0.716224841707939,
+      "delong_p": 0.47385252632497155
+    }
+  ],
+  "verdict": "Bootstrap 95% CI of anemia-AUROC gap (method\u2212baseline) on pooled (seed-averaged) test scores: [-0.0047, 0.0226]; excludes 0: False."
+}

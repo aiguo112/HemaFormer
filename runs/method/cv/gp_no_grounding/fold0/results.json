@@ -1,0 +1,58 @@
+{
+  "anemia": {
+    "auroc": 0.9691,
+    "threshold": 0.30999999999999994,
+    "val_macro_f1_at_thr": 0.9415652173913043,
+    "acc_at_tuned_thr": 0.905,
+    "precision_at_tuned_thr": 0.9090909090909091,
+    "recall_at_tuned_thr": 0.9,
+    "f1_at_tuned_thr": 0.9045226130653267,
+    "macro_f1_at_tuned_thr": 0.9049976249406235,
+    "pred_sha1": "48917e6589f7cd6f8fdcad28f68fd572d326ad65",
+    "logits_sha1": "7b17c51343185abac35475f4e10bbf1c3501030d"
+  },
+  "background_3": {
+    "accuracy": 0.735,
+    "macro_f1": 0.5341134077769859
+  },
+  "features": {
+    "ap_per_class": {
+      "elliptocytes": 0.7809349952514072,
+      "anisocytosis": 0.588924056498293,
+      "polychromasia": 0.5355640443623637,
+      "target_cells": 0.3930636622419812,
+      "tear_drop_cells": 0.17305812239011323,
+      "nRBCs": 0.1562607890194097,
+      "schistocytes": 0.3261983883814654
+    },
+    "macro_mAP": 0.42200057973500477
+  },
+  "cbc_mae_original": {
+    "HGB": {
+      "mae": 2.3112525939941406,
+      "n": 199
+    },
+    "MCV": {
+      "mae": 8.471302032470703,
+      "n": 199
+    },
+    "MCH": {
+      "mae": 3.406210422515869,
+      "n": 182
+    },
+    "MCHC": {
+      "mae": 1.8892748355865479,
+      "n": 189
+    }
+  },
+  "tag": "gp_no_grounding",
+  "best_epoch": 24,
+  "best_val_macro_f1": 0.9166666666666666,
+  "seconds": 1180.1335399150848,
+  "grounding": false,
+  "cbc_head": true,
+  "use_transformer": false,
+  "seed": 42,
+  "fold": 0,
+  "config": "gp_no_grounding"
+}

@@ -1,0 +1,29 @@
+# --- data: the public AneRBC dataset is NOT redistributed here ---------------
+AneRBC_dataset/
+AneRBC_dataset*/
+
+# --- model weights (download from the release page) -------------------------
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/**/best.pt
+runs/**/*.pt
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+
+# --- editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

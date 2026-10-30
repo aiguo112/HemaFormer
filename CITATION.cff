@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, the mined labels, or the fixed split, please cite the paper below."
+title: "HemaFormer: Report-Supervised Multi-Task Learning for Anemia and RBC Morphology on AneRBC"
+type: conference-paper
+authors:
+  - family-names: Ahmad
+    given-names: Talal
+    affiliation: "Department of Computer Engineering, Bahauddin Zakariya University, Multan, Pakistan"
+    email: heyytalall@gmail.com
+  - family-names: Abid
+    given-names: Husnain
+    affiliation: "Department of Computer Science, University of South Wales, United Kingdom"
+    email: husnainabid704@gmail.com
+  - family-names: Arbi
+    given-names: Ghulam
+    affiliation: "Department of Computer Science, University of Science and Technology of China, Hefei, China"
+    email: arbi@mail.ustc.edu.cn
+conference:
+  name: "The 3rd International Conference on Advances in Machine Intelligence and Cybersecurity Technologies (AMICT 2026)"
+  location: "Labuan, Malaysia"
+  start: 2026-11-12
+  end: 2026-11-13
+year: 2026
+abstract: >-
+  Automated anemia screening from peripheral blood smears is attractive because
+  red-blood-cell morphology carries diagnostic signal, yet existing work on the
+  AneRBC dataset relies on unimodal CNN classifiers, an unpublished train/test
+  split, and discards the free-text CBC and morphology reports paired with every
+  image. We build a reproducible benchmark (fixed stratified 5-fold split plus a
+  multi-task label set mined from the paired reports) and introduce HemaFormer, a
+  report-supervised multi-task network. From the image alone at inference it
+  matches strong pretrained baselines on anemia classification while additionally
+  predicting morphology background, poikilocyte features and CBC indices. With
+  bootstrap confidence intervals we report calibrated negative results: neither
+  contrastive report grounding nor auxiliary multi-task supervision significantly
+  improves the near-saturated anemia metric at this data scale.
+keywords:
+  - anemia
+  - peripheral blood smear
+  - multi-task learning
+  - report supervision
+  - AneRBC
+  - reproducibility
+license: MIT

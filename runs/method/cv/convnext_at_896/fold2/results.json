@@ -1,0 +1,20 @@
+{
+  "tag": "convnext@896",
+  "fold": 2,
+  "anemia": {
+    "auroc": 0.94965,
+    "threshold": 0.49999999999999994,
+    "acc_at_tuned_thr": 0.83,
+    "pred_sha1": "8bd6e80969be0f919966e6d1dc615882982e622b"
+  },
+  "background_3": {
+    "macro_f1": null
+  },
+  "features": {
+    "macro_mAP": null,
+    "ap_per_class": {}
+  },
+  "cbc_mae_original": {},
+  "best_epoch": 32,
+  "seconds": 1328.050166606903
+}

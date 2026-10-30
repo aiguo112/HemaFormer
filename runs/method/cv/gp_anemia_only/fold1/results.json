@@ -1,0 +1,33 @@
+{
+  "anemia": {
+    "auroc": 0.9148499999999999,
+    "threshold": 0.49999999999999994,
+    "val_macro_f1_at_thr": 0.9416626154594069,
+    "acc_at_tuned_thr": 0.83,
+    "precision_at_tuned_thr": 0.8666666666666667,
+    "recall_at_tuned_thr": 0.78,
+    "f1_at_tuned_thr": 0.8210526315789474,
+    "macro_f1_at_tuned_thr": 0.8295739348370927,
+    "pred_sha1": "9bee00cb0a9061c083b459c710a86ef1dd24ed38",
+    "logits_sha1": "1da2e0d01f417594fbd01ef6e80d285bc9d39402"
+  },
+  "background_3": {
+    "accuracy": null,
+    "macro_f1": null
+  },
+  "features": {
+    "ap_per_class": {},
+    "macro_mAP": null
+  },
+  "cbc_mae_original": {},
+  "tag": "gp_anemia_only",
+  "best_epoch": 28,
+  "best_val_macro_f1": 0.9416626154594069,
+  "seconds": 1285.6183967590332,
+  "grounding": false,
+  "cbc_head": false,
+  "use_transformer": false,
+  "seed": 42,
+  "fold": 1,
+  "config": "gp_anemia_only"
+}
